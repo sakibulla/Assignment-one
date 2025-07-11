@@ -81,3 +81,49 @@ nav ul li{
   color: #555;
   font-size: 14px;
 }
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.contact-left {
+  max-width: 400px;
+}
+.contact-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.2;
+}
+
+.contact-right {
+  width: 300px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-label {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+.form-input,
+.form-textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+}
+
+.form-textarea {
+  height: 100px;
+}
